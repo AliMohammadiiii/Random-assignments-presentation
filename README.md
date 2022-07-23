@@ -15,3 +15,6 @@ The purpose of condition 2 is that students cannot predict anything about the or
 K = number of groups
 A = number of assignment
 S = Number of deliveries for each assignment
+
+
+**Random selection algorithm** To find random numbers, we use the rand() function, but the random function returns duplicate numbers if we use it several times. For this reason, we always use the srand() function before using the rand() function, but in order to give a number to srand() so that the base of the calculation is a random number, we use an int variable that every time We added a number to it. And it is used everywhere.Then, in order for it to be in the range we want, we get the remainder of the result (rand) in that number and put it. And in order for everyone to present once, we create a new list, one by one, each time we enter a person from the list and add it to the new list, and after finishing the list, we read an entry from the new list. we read ; Delete
